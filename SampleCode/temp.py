@@ -14,11 +14,11 @@ class iCalculator:
 
     def addition(self):
         result = num1 + num2
-        print("Addition:          "  + str(result))
+        print(f"Addition:          {str(result)}")
 
     def multiplication(self):
         result = num1 * num2
-        print("Multiplication:    " + str(result))
+        print(f"Multiplication:    {str(result)}")
 
 mycalc = iCalculator
 try:

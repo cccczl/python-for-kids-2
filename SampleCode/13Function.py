@@ -19,13 +19,13 @@ my_function()
 
 # with parameter
 def my_function2(myname):
-    print("Hello from " + myname)
+    print(f"Hello from {myname}")
 
 my_function2("Wriju")
 
 #Two parameters and return type
 def my_function3(firstname, lastname):
-    return "Hello from " + firstname + " " + lastname
+    return f"Hello from {firstname} {lastname}"
 #passing parameter in exact sequence 
 print(my_function3("Wriju", "Ghosh"))
 
@@ -38,7 +38,7 @@ def my_function4():
 
 #default parameter value, when not supplied the default will show. 
 def my_function5(myname = "No Name!!!"):
-    print("My name is : " + myname)
+    print(f"My name is : {myname}")
 
 my_function5("Wrishika")    # call with a parameter value
 my_function5()              # call without a parameter value

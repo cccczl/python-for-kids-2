@@ -1,3 +1,3 @@
 #Funtion to be called 
 def sayHello(name):
-    print("Hello "+name)
+    print(f"Hello {name}")

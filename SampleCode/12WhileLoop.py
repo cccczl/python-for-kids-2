@@ -6,11 +6,8 @@
 # Git Repo      :   https://github/wrijugh/python-for-kids
 # ============================================================
 
-n = 1
-while n < 11:
+for n in range(1, 11):
     print(n)
-    n+=1
-
 i = 1
 blnFlag = True
 while blnFlag:
@@ -27,10 +24,6 @@ while (j < 10):
         print(j)
     j+=1
 
-k = 1
-while (k<10):
-    if k != 9:
-        pass
-    else:
+for k in range(1, 10):
+    if k == 9:
         print(k)
-    k +=1

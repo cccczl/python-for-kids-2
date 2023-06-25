@@ -7,22 +7,22 @@ class Calculator:
     # addition
     def addition(self):
         result = self.a + self.b
-        print("Addition:        " + str(result))
+        print(f"Addition:        {str(result)}")
     
     # subtraction
     def subtraction(self):
-        result = self.a - self.b 
-        print("Subtraction:     " + str(result))
+        result = self.a - self.b
+        print(f"Subtraction:     {str(result)}")
 
     # multiplication
     def multiplication(self):
         result = self.a * self.b
-        print("Multiplication:  " + str(result))
+        print(f"Multiplication:  {str(result)}")
     
     # division
     def division(self):
-        result = self.a / self.b 
-        print("Division:        " + str(result))
+        result = self.a / self.b
+        print(f"Division:        {str(result)}")
 
 #Calling the class 
 mycalc = Calculator(20, 10)

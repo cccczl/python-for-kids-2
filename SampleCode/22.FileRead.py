@@ -1,25 +1,7 @@
 filename = "C:\\temp\\myfile.txt"
 
-# line = f.readline()
-# print(line)
-# Open file to Read 
-f=open(filename,"r")
-line = f.read(100) #read 100 letters 
-
-# lines = f.read()
-# print(lines)
-
-# lines = f.readlines()
-# for line in lines:
-#     print(line)
-
-# line = f.readline()
-# while line != '':
-#     print(line)
-#     line = f.readline()
-# for line in f:
-#     print(line)
-f.close()
+with open(filename,"r") as f:
+    line = f.read(100) #read 100 letters
 
 #read multiple lines
 # f=open(filename,"r")
